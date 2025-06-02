@@ -7,7 +7,7 @@ import nrrd
 output_size =[112, 112, 80]
 
 def covert_h5():
-    listt = glob('./Training Set/*/lgemri.nrrd')
+    listt = glob('/content/drive/MyDrive/0SSL/Dataset/2018_UTAH_MICCAI/*/lgemri.nrrd')
     count = 0
     for item in tqdm(listt):
         try:
